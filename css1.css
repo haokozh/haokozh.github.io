@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:1000px;
+	background-color:#FFC;
+	margin-right:auto;
+	margin-left:auto;
+	}
+#header{
+	background-image:url(photo/0.03_01.gif);
+	width:1000px;
+	height:400px;
+	margin-top:0px;
+	border-radius:20px;
+	}
+#nav{
+	background-color:#FF8E8E;
+	width:990px;
+	height:60px;
+	padding-right:10px;
+	border-radius:20px;
+	}
+#nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+	float: right;
+	line-height: 63px;
+	padding-right:10px;
+	font-size: 20px;
+	color: #FFF;
+	}
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	}
+#nav ul li a{
+	font-size: 20px;
+	font-family:"微軟正黑體";
+	color: #FFF;
+	text-decoration: none;
+	}
+#section{
+	background-image: url(photo/bg.png);
+	width: 920px;
+	height: auto;
+	background-repeat: repeat-y;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-bottom: 50px;
+	}
+#footer{
+	background-color:#639;
+	width:1000px;
+	height:40px;
+	}
+#title2{
+	font-family:"微軟正黑體";
+	font-size:40px;
+	}
+#font{
+	font-family:"微軟正黑體";
+	}

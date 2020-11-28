@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 1400px;
+	margin-top:0px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFCC;
+	}
+	
+#header{
+	background-image:url(photo/0.03_01.gif);
+	width:1200px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	text-align:center;
+	border-radius:12px;
+	}
+	
+#nav{
+	background-color:#FF8E8E;
+	width: 1400px;
+	height: 50px;
+	margin-bottom:0px;
+	margin-top:5px;
+	border-radius:12px;
+	line-height: 50px;
+	}
+	
+#nav ul li a:hover {
+	color: #FF6;
+	}
+	
+#nav ul li {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	display: inline-block;
+	height: 50px;
+	width: 170px;
+	float: left;
+	padding:0px;
+	position: relative;
+	list-style-type: none;
+	}
+	
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style-type: none;
+	}
+#nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:"微軟正黑體";
+	}
+	
+#nav ul li ul {
+visibility:hidden;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	z-index: 1;
+	}
+	
+#nav ul li:hover ul, #nav ul li:hover li{
+	visibility:visible;
+	height:53px;
+	opacity:1;
+	background-color: #FF8E8E;
+	border-radius:12px;
+	}
+	
+#nav ul li ul li {
+	height: 0px;
+	transition:height 0.3s, opacity 0.3s linear;
+	background-color: #FF8E8E;
+	border-radius:12px;
+	}
+#nav ul li ul li a {
+	background-color: #FF5151;
+	float: left;
+	width: 170px;
+	font-size: 18px;
+	border-radius:20px;
+	}
+		
+#asidel{
+	width: 390px;
+	height: auto;
+	border-radius: 12px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+	}
+
+#asider{
+	width:190px;
+	height:400px;
+	background-color:#FFC;
+	border-radius:12px;
+	margin-left:10px;
+	float:right;
+	}
+	
+#section{
+	width: 1400px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	float: left;
+	background-color: #FFFFCC;
+	background-image: url(photo/bg.png);
+	background-repeat: repeat-y;
+	padding-left: 60px;
+	min-height: 400px;
+	}
+	
+#section1{
+	width: 1140px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	position: relative;
+	top: -20px;
+	z-index: 1;
+	background-repeat: repeat-y;
+	padding-left: 60px;
+	text-align: left;
+	float: left;
+	}
+
+	
+#footer{
+	background-color: #FF5151;
+	width: 1400px;
+	height: 55px;
+	margin-top:100px;
+	border-radius:12px;
+	clear: both;
+	}
+	
+#title{
+	font-family: "微軟正黑體";
+	font-size: 64px;
+	}
+	
+#title2{
+	font-family:"微軟正黑體";
+	font-size:40px;
+	}
+	
+#photo{
+	border-radius:5px;
+	}
+	
+#divsec{
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:50px;
+	}
+	
+#divsec1{
+	padding-left:20px;
+	}
+	
+#apDiv1 {
+	position: absolute;
+	left: 1241px;
+	top: 335px;
+	width: 171px;
+	height: 53px;
+	z-index: 2;
+	
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1200px;
+	position: relative;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	
+	
+}
+.slideshow-container .mySlides.fade img {
+	 border-radius: 20px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
